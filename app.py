@@ -1,3 +1,5 @@
+import gradio as gr 
+
 def binarySearch(nums, target): 
    """
       parameter: nums is a list of numbers in ascending order, target is an integer 
@@ -14,10 +16,16 @@ def binarySearch(nums, target):
          lower = mid + 1 
       elif nums[mid] > target: 
          upper = mid - 1
+   return  
 
-   return -1        
+with gr.Blocks() as demo: 
+   title_text = gr.HTML("<p style= 'font-size: 20px;'>Binary Search Visualization</p>")
 
-#sample call 
-nums = [2, 3, 5, 7, 9, 10] 
-target = 12 
-print(binarySearch(nums, target))
+    #initial visuals
+    array = gr.Textbox(value = "1, 2, 5, 7, 8, 10, 12, 15, 16", label = "Array") 
+    target_input = gr.Number(label = "Please Enter the Target Number") 
+
+    #buttons 
+    startButton = gr.Button("Start Search")
+    resetButton = gr.Button("Reset Search")
+
