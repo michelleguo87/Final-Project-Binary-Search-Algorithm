@@ -4,22 +4,24 @@ I chose the binary search algorithm. I chose a searching algorithm specifically 
 ## Problem Breakdown: 
 #Decomposition: 
 * divide the array length by two to get a variable representing the middle element 
-* divide the array left of the middle element or the array right of the element into half
+* divide the array left of the middle element or the array right of the element into half depending on if the target number is less than the mid pointer or greater than the mid pointer respectively
 * continue dividing each sub-array until target is found 
 
 #Pattern Recognition: 
+* array has to be sorted for binary search to work 
 * if the target number is greater than the current middle element (set lower pointer to be mid + 1)
 * if target number is less than the current middle element (set upper pointer to be mid)
 * keep dividing each sub-array by two to get the new current middle element 
 
 #Abstraction: 
 * the user does not need to see the part of the code that checks for edge cases and constraints or the general code structure
-* user should see the current part of the array the code is looking at, the current middle element and the target number 
+* user should see the left, mid, right pointers for each iteration
+* finally, user should see the index that the target number was found or display text saying the number was not found
 
 #Algorithm: 
 * input: an array of integer numbers and an integer target number 
 * output: the index that the target number is at, visually show where the target number is and how it was found
-* constraints: 
+* constraints: target number should be between -2**31 and 2**31 - 1, length of array should not be more than 1000, number input has to be an integer 
 
 #Flow Chart: 
 
