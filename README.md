@@ -22,6 +22,7 @@ I chose the binary search algorithm. I chose a searching algorithm specifically 
 * constraints: 
 
 #Flow Chart: 
+
 ![FLow Chart](Binary Search Flow Chart.jpeg)
 
 ## Demo Video: 
