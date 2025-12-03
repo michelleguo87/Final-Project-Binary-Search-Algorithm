@@ -23,7 +23,7 @@ I chose the binary search algorithm. I chose a searching algorithm specifically 
 
 #Flow Chart: 
 
-![FLow Chart](Binary Search Flow Chart.jpeg)
+![FLow Chart](https://github.com/michelleguo87/Final-Project-Binary-Search-Algorithm/blob/ec38db244550cfad083fc6572124e6bd80a3d314/Binary%20Search%20Flow%20Chart.jpeg)
 
 ## Demo Video: 
 
