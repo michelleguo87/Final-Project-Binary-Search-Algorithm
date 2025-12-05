@@ -35,7 +35,8 @@ I chose the binary search algorithm. I chose a searching algorithm specifically 
 ![Regular Case](https://github.com/michelleguo87/Final-Project-Binary-Search-Algorithm/blob/main/Regular%20Case.png)
 ![Searching for Negative Number](https://github.com/michelleguo87/Final-Project-Binary-Search-Algorithm/blob/main/Searching%20for%20Negative%20Number.png)
 ![Target Number Not Found](https://github.com/michelleguo87/Final-Project-Binary-Search-Algorithm/blob/main/Target%20Number%20Not%20Found.png)
-![Letters Input](
+![Letters Input](https://github.com/michelleguo87/Final-Project-Binary-Search-Algorithm/blob/main/Letters%20Entered%20Instead%20of%20Numbers%20Case.png)
+![Negative Numbers in Array](
 
 ## Demo Video: 
 
