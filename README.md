@@ -28,12 +28,15 @@ I chose the binary search algorithm. I chose a searching algorithm specifically 
 ![FLow Chart](https://github.com/michelleguo87/Final-Project-Binary-Search-Algorithm/blob/ec38db244550cfad083fc6572124e6bd80a3d314/Binary%20Search%20Flow%20Chart.jpeg)
 
 ## Testing and Verification: 
-* 
+* I tried testing the colored array updating, and the app ended up displaying each iteration of the colored array, instead of constantly updating one. ChatGPT suggested to yield the outputs seperately as a tuple, and after changing what the code yields, the code created 1 array.
+* after trying different combinations of numbers, I found that the code did not account for some edge cases like negative numbers, especially because the run function has to convert the string input into a list of numbers. It also did not account for double digit numbers at first before I used the .split() function. 
 
 
 ## Demo Video: 
 
 ## Hugging Face Link: 
+
+michelleg87/Binary-Search-Algorithm-Visual
 
 ## Author and Acknolwedgement: 
 Author: Michelle Guo 
