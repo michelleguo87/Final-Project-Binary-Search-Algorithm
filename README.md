@@ -29,7 +29,8 @@ I chose the binary search algorithm. I chose a searching algorithm specifically 
 
 ## Testing and Verification: 
 * I tried testing the colored array updating, and the app ended up displaying each iteration of the colored array, instead of constantly updating one. ChatGPT suggested to yield the outputs seperately as a tuple, and after changing what the code yields, the code created 1 array.
-* after trying different combinations of numbers, I found that the code did not account for some edge cases like negative numbers, especially because the run function has to convert the string input into a list of numbers. It also did not account for double digit numbers at first before I used the .split() function. 
+* after trying different combinations of numbers, I found that the code did not account for some edge cases like negative numbers, especially because the run function has to convert the string input into a list of numbers. It also did not account for double digit numbers at first before I used the .split() function.
+* While trying different combinations of arrays, I also realized that I did not account for scenarios where the input array is not sorted, I then adjusted by using the sort function 
 
 #Test Screenshots: 
 ![Regular Case](https://github.com/michelleguo87/Final-Project-Binary-Search-Algorithm/blob/main/Regular%20Case.png)
