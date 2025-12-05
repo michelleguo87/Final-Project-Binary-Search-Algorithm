@@ -15,7 +15,7 @@ def binarySearch(target, array):
     """
     #check for constraints:
     if target < -2**31 or target > (2**31)-1:
-        yield "<p style='color:red;'>Please enter another number</p>"
+        yield "<p style='color:red;'>Please enter another number</p>" 
         return
     if len(array) < 1 or len(array) > 1000:
         yield "<p style='color:red;'>Array is too short or too long</p>"
@@ -57,7 +57,7 @@ def binarySearch(target, array):
 
         #binary search algorithm 
         if array[mid] == target:
-            yield colored_array, "<p style='color:green;'>Target number found at index: " + str(mid) + "</p>"
+            yield colored_array, "<p style='color:green;'>Target number found at index: " + str(mid) + "</p>" #AI Disclaimer: Asked ChatGPT how to make streaming work and how to use yield, looked at Gradio Documentation alongside what ChatGPT said
             return 
         elif array[mid] < target:
             left = mid + 1
@@ -86,6 +86,7 @@ with gr.Blocks() as demo:
     
     #running the binary search
     def run(array, target):
+        #convert string input into a list 
         array_list = []
         for char in array.split(","): #AI Disclaimer: asked prompt: how to convert string into list of integers while ignoring commas.
             if "-" in char:
@@ -114,7 +115,7 @@ with gr.Blocks() as demo:
         return "", "" 
 
     #button events 
-    startButton.click(run, inputs = [array_input, target_input], outputs = [colored_array, output_steps])
+    startButton.click(run, inputs = [array_input, target_input], outputs = [colored_array, output_steps]) #AI Discalimer: Asked how button clicking works 
     resetButton.click(reset, outputs = [colored_array, output_steps]) 
 
 demo.launch(share = True) 
