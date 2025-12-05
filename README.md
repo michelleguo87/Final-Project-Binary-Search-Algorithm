@@ -27,6 +27,10 @@ I chose the binary search algorithm. I chose a searching algorithm specifically 
 
 ![FLow Chart](https://github.com/michelleguo87/Final-Project-Binary-Search-Algorithm/blob/ec38db244550cfad083fc6572124e6bd80a3d314/Binary%20Search%20Flow%20Chart.jpeg)
 
+## Testing and Verification: 
+* 
+
+
 ## Demo Video: 
 
 ## Hugging Face Link: 
