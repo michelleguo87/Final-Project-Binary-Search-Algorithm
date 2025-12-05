@@ -36,7 +36,7 @@ I chose the binary search algorithm. I chose a searching algorithm specifically 
 
 ## Hugging Face Link: 
 
-michelleg87/Binary-Search-Algorithm-Visual
+https://huggingface.co/spaces/michelleg87/Binary-Search-Algorithm-Visual
 
 ## Author and Acknolwedgement: 
 Author: Michelle Guo 
