@@ -40,6 +40,8 @@ I chose the binary search algorithm. I chose a searching algorithm specifically 
 ![Negative Numbers in Array](https://github.com/michelleguo87/Final-Project-Binary-Search-Algorithm/blob/main/Handles%20Negative%20Numbers.png)
 
 ## Demo Video: 
+![App Demo](https://github.com/michelleguo87/Final-Project-Binary-Search-Algorithm/blob/main/Demo%20Video%20-%20Binary%20Search.mov) 
+* may have to download raw video to view
 
 ## Hugging Face Link: 
 
