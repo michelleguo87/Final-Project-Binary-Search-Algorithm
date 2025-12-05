@@ -32,7 +32,7 @@ I chose the binary search algorithm. I chose a searching algorithm specifically 
 * after trying different combinations of numbers, I found that the code did not account for some edge cases like negative numbers, especially because the run function has to convert the string input into a list of numbers. It also did not account for double digit numbers at first before I used the .split() function. 
 
 #Test Screenshots: 
-![Regular Case](
+![Regular Case](https://github.com/michelleguo87/Final-Project-Binary-Search-Algorithm/blob/main/Regular%20Case.png)
 
 ## Demo Video: 
 
