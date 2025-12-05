@@ -33,6 +33,7 @@ I chose the binary search algorithm. I chose a searching algorithm specifically 
 
 ## Author and Acknolwedgement: 
 Author: Michelle Guo 
+
 AI Use Disclosure: 
 * I used ChatGPT throughout the project to help with my code writing process. Here is a general summary of what I used it for.
 * I used ChatGPT to learn how to use the gradio components better, specifically I would ask ChatGPT for examples of how to implement html into the app because the gradio documentation often lacked examples.
