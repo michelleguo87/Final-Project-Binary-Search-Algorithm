@@ -30,7 +30,8 @@ I chose the binary search algorithm. I chose a searching algorithm specifically 
 ## Testing and Verification: 
 * I tried testing the colored array updating, and the app ended up displaying each iteration of the colored array, instead of constantly updating one. ChatGPT suggested to yield the outputs seperately as a tuple, and after changing what the code yields, the code created 1 array.
 * after trying different combinations of numbers, I found that the code did not account for some edge cases like negative numbers, especially because the run function has to convert the string input into a list of numbers. It also did not account for double digit numbers at first before I used the .split() function.
-* While trying different combinations of arrays, I realized that I did not account for scenarios where the input array is not sorted, I then adjusted by using the sort function 
+* While trying different combinations of arrays, I realized that I did not account for scenarios where the input array is not sorted, I then adjusted by using the sort function
+* After testing the app on a different browser, I realized if the background was white, parts of the array will not be seen, so I updated it the text to adjust to backgrounds after asking ChatGPT how that could be done
 
 ##Test Screenshots: 
 ![Regular Case](https://github.com/michelleguo87/Final-Project-Binary-Search-Algorithm/blob/main/Regular%20Case.png)
@@ -53,7 +54,8 @@ Author: Michelle Guo
 AI Use Disclosure: 
 * I used ChatGPT throughout the project to help with my code writing process. Here is a general summary of what I used it for.
 * I used ChatGPT to learn how to use the gradio components better, specifically I would ask ChatGPT for examples of how to implement html into the app because the gradio documentation often lacked examples.
-* I specifically asked ChatGPT how buttons, button events, and streaming works 
+* I specifically asked ChatGPT how buttons, button events, html and streaming works
+* Asked ChatGPT how to account for different background colors, while allowing the code to adapt accordingly
 * There were times where the code would lead to an error related to gradio and I was unsure of what was causing that error. So I input into ChatGPT the specific error, like a streaming error and adjusted my code accordingly.
 * There was also an error where the run function was not returning enough outputs, but I was not sure how outputs were counted within the blocks, so I asked ChatGPT to explain what that error really meant.
 * From ChatGPT, I learned a lot about how Gradio can sometimes function very differently from normal python code. For exmaple, the arguments that have to go into the button click event, have to be gradio components, or the program will not work
