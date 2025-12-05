@@ -33,3 +33,10 @@ I chose the binary search algorithm. I chose a searching algorithm specifically 
 
 ## Author and Acknolwedgement: 
 Author: Michelle Guo 
+AI Use Disclosure: 
+* I used ChatGPT throughout the project to help with my code writing process. Here is a general summary of what I used it for.
+* I used ChatGPT to learn how to use the gradio components better, specifically I would ask ChatGPT for examples of how to implement html into the app because the gradio documentation often lacked examples.
+* I also asked ChatGPT how buttons, button events, and streaming works 
+* There were times where the code would lead to an error related to gradio and I was unsure of what was causing that error. So I input into ChatGPT the specific error, like a streaming error and adjusted my code accordingly.
+* There was also an error where the run function was not returning enough outputs, but I was not sure how outputs were counted within the blocks, so I asked ChatGPT to explain what that error really meant.
+* Whenever I asked ChatGPT for help with parts of the code, I made sure to understand what ChatGPT was telling me and to test out the code after implementing any changes, as ChatGPT can often get the concept right, but suggests code that leads to errors. 
