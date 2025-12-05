@@ -42,7 +42,7 @@ def binarySearch(target, array):
             elif i == right:
                 color = "blue"
             else:
-                color = "white" 
+                color = "var(--body-text-color)" #AI Disclaimer: Asked how to make it so that the text adapts to different backgrounds (In case the background is white)
 
             colored_array += "<p style='color:" + color + ";'>" + str(array[i]) + "</p>"
 
