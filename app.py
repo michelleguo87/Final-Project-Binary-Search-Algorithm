@@ -11,7 +11,7 @@ def binarySearch(target, array):
        -2**31 <= target <= (2**31) - 1
        1 <= len(array) <= 1000
        input has to be integers 
-       output: the index that the target number is found at 
+       output: the index (integer) that the target number is found at 
     """
     #check for constraints:
     if target < -2**31 or target > (2**31)-1:
