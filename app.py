@@ -91,13 +91,13 @@ with gr.Blocks() as demo:
         for char in array.split(","): #AI Disclaimer: asked prompt: how to convert string into list of integers while ignoring commas.
             if "-" in char:
                 if char[1:].isdigit() == False:            
-                    yield "<p style ='color:red;'>Please enter numbers and commas only</p>", ""
+                    yield "<p style ='color:red;'>Please enter numbers and commas (1 comma between numbers, no space) only</p>", ""
                     return #accounts for negative numbers
                 else:
                     array_list.append(int(char))
     
             elif char.isdigit() == False:
-                yield "<p style ='color:red;'>Please enter numbers and commas only</p>", ""
+                yield "<p style ='color:red;'>Please enter numbers and commas (1 comma between numbers, no space) only</p>", ""
                 return
             else: 
                 array_list.append(int(char))
