@@ -56,6 +56,6 @@ with gr.Blocks() as demo:
        return "", "" 
 
    startButton.click(run, inputs = [array_input, target_input], outputs = [output_steps])
-   resetButton.click(reset, outputs = [colored_array, output_steps]) 
+   resetButton.click(reset, outputs = [output_steps]) 
 
 demo.launch() 
